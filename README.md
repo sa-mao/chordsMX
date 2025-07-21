@@ -1,19 +1,31 @@
-# chordsMX VR Keyboard
+# chordsMX - Gesture-Based VR Keyboard for Meta Quest 3
 
-This repository contains the source code for the chordsMX project, a gesture-based VR keyboard for the Meta Quest 3.
+## Version 1.2
 
-## How to Run
+## Features
+- **Chord-Based Typing System**: Two-handed gesture input for efficient typing
+- **Controller-Free Navigation**: Hand tracking with laser pointer interaction
+- **AI-Assisted Text Generation**: Gemini API integration for smart suggestions
+- **Layered Training System**: Three progressive learning modules
+- **Glassmorphism UI**: Modern, elegant interface design
 
-Follow the "WebXR Method" in the release guide. Host this folder on a web server (like GitHub Pages) and access the URL from the Meta Quest Browser.
+## Requirements
+- Meta Quest 3 with hand tracking enabled
+- Meta Quest Browser with WebXR support
+- Internet connection for AI features
 
-## Project Details
+## Setup
+1. Run the setup script: `./setup_chordsMX.sh`
+2. Open `index.html` in Meta Quest Browser
+3. Enable WebXR and hand tracking permissions
+4. Use hand gestures to navigate and type
 
-- **Framework:** A-Frame
-- **Features:**
-  - Modern "glassmorphism" UI with improved layout and fonts.
-  - **Direct hand-controlled cursor for UI navigation.**
-  - Interactive hover effects and pinch-to-select for all buttons.
-  - Layered training system with multiple lessons (Basics, Words, Punctuation).
-  - Interactive feedback and accuracy scoring.
-  - Gesture-based typing using hand-tracking.
-  - AI-powered text completion and summarization via the Gemini API.
+## Controls
+- **Point**: Extend index finger
+- **Select**: Pinch thumb and index finger
+- **Type**: Perform chord gestures with both hands
+
+## Training Modules
+1. Basic Letters (Vowels and common consonants)
+2. Common Words (High-frequency English words)
+3. Punctuation (Symbols and special characters)
